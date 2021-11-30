@@ -8,12 +8,10 @@ namespace Exceptions
         {
             Console.WriteLine("OSZTÁS\n=============");
             Console.WriteLine("Kivételkezelés nélkül\n--------------------");
-            //osztasKivetelKezelesNelkul();
+            osztasKivetelKezelesNelkul();
 
             Console.WriteLine("Kivételkezeléssel\n--------------------");
-            osztasKivetelKezelessel();
-
-
+            //osztasKivetelKezelessel();
 
         }
     
@@ -27,7 +25,7 @@ namespace Exceptions
              * - 
              */
 
-            Console.Write("Add meg az osztót!: ");
+            Console.Write("Add meg az osztót (egész szám)!: ");
 
             int oszto = Convert.ToInt32(Console.ReadLine());
             /*
@@ -50,11 +48,11 @@ namespace Exceptions
             while(!ok)
             try
             {
-                Console.Write("Add meg az osztandó számot!: ");
+                Console.Write("Add meg az osztandó egész számot!: ");
 
                 int osztando = Convert.ToInt32(Console.ReadLine());
 
-                Console.Write("Add meg az osztót!: ");
+                Console.Write("Add meg az osztót (egész szám)!: ");
 
                 int oszto = Convert.ToInt32(Console.ReadLine());
 
@@ -80,3 +78,5 @@ namespace Exceptions
 
     }
 }
+
+
