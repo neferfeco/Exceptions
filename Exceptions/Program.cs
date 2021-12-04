@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 namespace Exceptions
 {
     class Program
